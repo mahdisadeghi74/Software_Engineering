@@ -1,0 +1,5 @@
+c:\users\mahdi\documents\visual studio 2015\Projects\Software_Engineering\Model\bin\Debug\Model.dll
+c:\users\mahdi\documents\visual studio 2015\Projects\Software_Engineering\Model\bin\Debug\Model.pdb
+c:\users\mahdi\documents\visual studio 2015\Projects\Software_Engineering\Model\obj\Debug\Model.csprojResolveAssemblyReference.cache
+c:\users\mahdi\documents\visual studio 2015\Projects\Software_Engineering\Model\obj\Debug\Model.dll
+c:\users\mahdi\documents\visual studio 2015\Projects\Software_Engineering\Model\obj\Debug\Model.pdb

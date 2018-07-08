@@ -1,0 +1,9 @@
+c:\users\mahdi\documents\visual studio 2015\Projects\Software_Engineering\BLL\bin\Debug\BLL.dll
+c:\users\mahdi\documents\visual studio 2015\Projects\Software_Engineering\BLL\bin\Debug\BLL.pdb
+c:\users\mahdi\documents\visual studio 2015\Projects\Software_Engineering\BLL\bin\Debug\DAL.dll
+c:\users\mahdi\documents\visual studio 2015\Projects\Software_Engineering\BLL\bin\Debug\Model.dll
+c:\users\mahdi\documents\visual studio 2015\Projects\Software_Engineering\BLL\bin\Debug\DAL.pdb
+c:\users\mahdi\documents\visual studio 2015\Projects\Software_Engineering\BLL\bin\Debug\Model.pdb
+c:\users\mahdi\documents\visual studio 2015\Projects\Software_Engineering\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+c:\users\mahdi\documents\visual studio 2015\Projects\Software_Engineering\BLL\obj\Debug\BLL.dll
+c:\users\mahdi\documents\visual studio 2015\Projects\Software_Engineering\BLL\obj\Debug\BLL.pdb

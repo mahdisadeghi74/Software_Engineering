@@ -1,0 +1,35 @@
+﻿<Window x:Class="Software_Engineering.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Software_Engineering"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="219.737" Width="374.999" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="50" Background="DarkCyan">
+            <TextBlock Text="Login" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontFamily="segoeui" FontSize="20"></TextBlock>
+        </Grid>
+        <StackPanel Orientation="Vertical" Margin="0,70,0,0">
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
+                <StackPanel Margin="0,0,10,0" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBlock Text="UserName:" Margin="0,0,0,9"></TextBlock>
+                    <TextBlock Text="PassWord:" Margin="0,0,0,0"></TextBlock>
+                    <TextBlock Text="Type:" Margin="0,9,0,0"></TextBlock>
+                </StackPanel>
+
+                <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <TextBox x:Name="_txtUName" HorizontalAlignment="Left" Height="23" Margin="0,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+                    <PasswordBox x:Name="_txtUPass" HorizontalAlignment="Left" Height="23" Margin="0,5,0,0"  VerticalAlignment="Top" Width="120"/>
+                    <ComboBox x:Name="_cmType">
+                        <ComboBoxItem Content="دکتر"/>
+                        <ComboBoxItem Content="پرسنل"/>
+                    </ComboBox>
+                </StackPanel>
+
+            </StackPanel>
+            <Button x:Name="_btnLogin"  Background="DarkCyan" Foreground="White" Content="Login" HorizontalAlignment="Center" Margin="68,10,68,0" VerticalAlignment="Top" Width="74" Click="_btnLogin_Click" BorderBrush="{x:Null}" />
+        </StackPanel>
+    </Grid>
+</Window>

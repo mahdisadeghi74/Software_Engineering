@@ -1,0 +1,32 @@
+﻿<Window x:Class="Software_Engineering.MainWin"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Software_Engineering"
+        mc:Ignorable="d"
+        Title="MainWin" Height="321.429" Width="534.586" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid HorizontalAlignment="Stretch" VerticalAlignment="Top" Height="70" Background="DarkCyan">
+            <TextBlock Text="MainWindow" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontFamily="segoeui" FontSize="20"></TextBlock>
+        </Grid>
+        <TabControl x:Name="tabControl" HorizontalAlignment="Stretch"  Margin="0,50,0,0" VerticalAlignment="Stretch">
+            <TabItem Header="Add drug">
+                <Grid Background="#FFE5E5E5" Margin="0,0,0,0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                    <StackPanel VerticalAlignment="Top" HorizontalAlignment="Left" Margin="20,20,0,0">
+                        <Button x:Name="_btnShow"  Background="DarkCyan" Foreground="White" Content="Show" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Width="74" Click="_btnShow_Click" BorderBrush="{x:Null}" />
+                        <Button x:Name="_btnAdd"  Background="DarkCyan" Foreground="White" Content="Add" HorizontalAlignment="Left" Margin="0,5,0,0" VerticalAlignment="Top" Width="74" Click="_btnLogin_Click" BorderBrush="{x:Null}" />
+                        <Button x:Name="_btnUpdate"  Background="DarkCyan" Foreground="White" Content="Edit" HorizontalAlignment="Left" Margin="0,5,0,0" VerticalAlignment="Top" Width="74" Click="_btnEdit_Click" BorderBrush="{x:Null}" />
+
+                    </StackPanel>
+
+                    <DataGrid x:Name="_dtGrid" Margin="100,20,20,20" Background="DarkGray" Foreground="Black"></DataGrid>
+                    
+                </Grid>
+            </TabItem>
+            <TabItem Header="TabItem">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
